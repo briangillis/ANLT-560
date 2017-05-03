@@ -3,6 +3,8 @@
 
 */
 
+use university;
+
 #  1.	Find the names of all the instructors from Biology department
 select name
 from instructor
@@ -13,8 +15,9 @@ where
 select title
 from course
 where
-  dept_name = 'Biology' and
+  dept_name = 'Comp. Sci.' and
   credits = 3;
+  
   
 # 3.	For the student with ID 12345 (or any other value), show all course_id and title of all courses registered for by the student.
 select 
